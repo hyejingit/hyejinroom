@@ -125,7 +125,9 @@ section.swipe img {
 /*****************
 ***** about ******
 ******************/
-section.about,
+section.about {
+  margin: 18% 0;
+}
 section.ongoing,
 section.contact {
   margin: 18% 24px;
@@ -136,9 +138,14 @@ section.contact {
   align-content: center;
   flex-wrap: wrap;
 }
+
 section.about img {
   width: 100%;
   margin: 1.5rem 0;
+}
+section.about span {
+  margin: 0 24px;
+  display: inline-block;
 }
 /*****************
 **** ongoing *****
@@ -179,7 +186,7 @@ i.instagram {
 ******************/
 footer {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
   font-size: 10px;
   text-align: center;
