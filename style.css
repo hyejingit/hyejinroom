@@ -126,11 +126,11 @@ section.swipe img {
 ***** about ******
 ******************/
 section.about {
-  margin: 18% 0;
+  margin: 10% 0;
 }
 section.ongoing,
 section.contact {
-  margin: 18% 24px;
+  margin: 10% 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
