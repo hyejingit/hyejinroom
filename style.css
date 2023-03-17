@@ -9,16 +9,29 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html, body {
   font-family: "Spoqa Han Sans Neo", "sans-serif";
   color: #222;
-  max-height: 100vh;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
 }
+body {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  /* min-height: 100%; */
+  height: 100vh;
+  min-height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+body.home,
+body.contactWrap {
+  overflow: hidden;
+  touch-action: none;
+  position: fixed;
+}
+
+
 /* base */
 a {
   text-decoration: none;
@@ -82,10 +95,14 @@ header li:nth-child(3) {
 ******************/
 main {
   overflow: hidden;
+  overflow-x: scroll;/*스크롤임 (스와이프하려면 제거)*/
+}
+main::-webkit-scrollbar {
+  display: none;
 }
 /* swipe */
 section.swipe {
-  margin: 6% 0;
+  margin: 10% 0;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -173,10 +190,10 @@ section.ongoing .currentText p {
 ******************/
 section.contact p {
   font-size: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin: 2.5rem 0;
 }
 section.contact a {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 i.instagram {
   background: url(instagram.png) no-repeat center;
@@ -190,19 +207,24 @@ i.instagram {
 ***** footer *****
 ******************/
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   font-size: 10px;
   text-align: center;
   font-weight: 300;
   color: #757575;
-  padding: 32px 0;
+  margin-bottom: 24px;
 }
 footer .footerImg {
   background: url(logo.png) no-repeat center;
   background-size: contain;
   width: 100%;
   height: 50px;
-  margin-bottom: 24px;
+  margin-bottom: 1rem;
 }
+
+/* @media screen and (max-width: 768px) {
+  body.home {
+      height: 100vh;
+      position: fixed;
+  }
+} */
