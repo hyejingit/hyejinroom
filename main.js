@@ -2,8 +2,12 @@
 let curPos = 0;
 let postion = 0;
 let start_x, end_x;
-const IMAGE_WIDTH = 196;
+const IMAGE_WIDTH = 100;
 const swipe = document.querySelector(".swipe");
+//
+const box = document.getElementsByClassName("box");
+console.log(box.offsetWidth);
+//
 
 swipe.addEventListener("touchstart", touch_start);
 swipe.addEventListener("touchend", touch_end);
@@ -35,3 +39,4 @@ function touch_end(event) {
     prev();
   }
 }
+//모바일 하단탭 제외 100%
