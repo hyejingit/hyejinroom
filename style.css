@@ -35,7 +35,8 @@
 }
 html,
 body {
-  font-family: "Spoqa Han Sans Neo";
+  font-family: "Noto Sans KR", "Spoqa Han Sans Neo", "Apple SD Gothic",
+    "맑은고딕", sans-serif;
   color: #222;
   background-color: #fff;
   width: 100%;
