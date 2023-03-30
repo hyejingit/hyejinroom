@@ -283,7 +283,14 @@ footer .footerImg {
   margin: 16px 0;
   display: inline-block;
 }
-
+.sold {
+  border: 1px solid ##ff7061;
+  color: ##ff7061;
+  border-radius: 50px;
+  padding: 2% 4%;
+  margin: 16px 0;
+  display: inline-block;
+}
 .detailContact {
   margin: 4% 0;
 }
