@@ -275,6 +275,9 @@ footer .footerImg {
   line-height: 1.6;
 }
 
+.sum {
+  color: #ddd;
+}
 .available {
   border: 1px solid #ddd;
   color: #999;
