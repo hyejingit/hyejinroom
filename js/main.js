@@ -29,7 +29,7 @@ $(document).ready(function () {
         var targetTabId = $(this).attr('tab-id');
         var targetTab = $('#tab' + targetTabId);
 
-        var offset = targetTab.offset().top;
+        var offset = targetTab.offset().top - 200;
 
         // 페이지 상단으로 스크롤
         $('html, body').animate({
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     // 스크롤 이벤트 감지하여 활성 탭 변경
     $(window).scroll(function () {
-        var scrollPos = $(document).scrollTop() + 80;
+        var scrollPos = $(document).scrollTop() + 200;
     
         $('.tab').each(function () {
             var targetTab = $(this);
