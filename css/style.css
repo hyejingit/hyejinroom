@@ -3,7 +3,7 @@
 /** alexross */
 @font-face {
   font-family: "alexross";
-  src: url(/font/Alexross-Regular.ttf);
+  src: url(../font/Alexross-Regular.ttf);
 }
 /** Pretendard */
 @font-face {
@@ -11,63 +11,63 @@
   font-weight: 900;
   font-display: swap;
   src: local("Pretendard Black"),
-    url("/fonts/Pretendard-Black.subset.woff2") format("woff2");
+    url('../font/Pretendard-Black.subset.woff2') format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 800;
   font-display: swap;
   src: local("Pretendard ExtraBold"),
-    url("/fonts/Pretendard-ExtraBold.subset.woff2") format("woff2");
+    url("../font/Pretendard-ExtraBold.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 700;
   font-display: swap;
   src: local("Pretendard Bold"),
-    url("/fonts/Pretendard-Bold.subset.woff2") format("woff2");
+    url("../font/Pretendard-Bold.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 600;
   font-display: swap;
   src: local("Pretendard SemiBold"),
-    url("/fonts/Pretendard-SemiBold.subset.woff2") format("woff2");
+    url("../font/Pretendard-SemiBold.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 500;
   font-display: swap;
   src: local("Pretendard Medium"),
-    url("/fonts/Pretendard-Medium.subset.woff2") format("woff2");
+    url("../font/Pretendard-Medium.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 400;
   font-display: swap;
   src: local("Pretendard Regular"),
-    url("/fonts/Pretendard-Regular.subset.woff2") format("woff2");
+    url("../font/Pretendard-Regular.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 300;
   font-display: swap;
   src: local("Pretendard Light"),
-    url("/fonts/Pretendard-Light.subset.woff2") format("woff2");
+    url("../font/Pretendard-Light.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 200;
   font-display: swap;
   src: local("Pretendard ExtraLight"),
-    url("/fonts/Pretendard-ExtraLight.subset.woff2") format("woff2");
+    url("../font/Pretendard-ExtraLight.subset.woff2") format("woff2");
 }
 @font-face {
   font-family: "Pretendard";
   font-weight: 100;
   font-display: swap;
   src: local("Pretendard Thin"),
-    url("/fonts/Pretendard-Thin.subset.woff2") format("woff2");
+    url("../font/Pretendard-Thin.subset.woff2") format("woff2");
 }
 /** AppleMyungjo */
 @font-face {
@@ -339,7 +339,7 @@ section.about img {
   gap: 10px;
 }
 .instagram i {
-  background: url(/images/instagram.png) no-repeat center;
+  background: url(../images/instagram.png) no-repeat center;
   background-size: contain;
   display: inline-block;
   width: 16px;
@@ -463,7 +463,7 @@ section.contact a {
   margin-top: 0.5rem;
 }
 i.instagram {
-  background: url(/images/instagram.png) no-repeat center;
+  background: url(../images/instagram.png) no-repeat center;
   background-size: contain;
   display: inline-block;
   width: 100%;
@@ -482,7 +482,7 @@ footer {
   margin: 30px 0;
 }
 footer .footerImg {
-  background: url(/images/logo.png) no-repeat center;
+  background: url(../images/logo.png) no-repeat center;
   background-size: contain;
   width: 100%;
   height: 50px;
