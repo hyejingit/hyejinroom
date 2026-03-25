@@ -264,6 +264,10 @@ section {
   justify-items: center;
   transition: transform 0.5s;
 }
+.list p {
+  font-size: 0.875rem;
+  color: #757575;
+}
 .list a {
   display: flex;
   flex-direction: column;
